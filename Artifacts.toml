@@ -1,111 +1,128 @@
 [[Xorg_libSM]]
 arch = "aarch64"
-git-tree-sha1 = "254286598d98b9a2f2ddf8573e032ad2a25aa370"
+git-tree-sha1 = "f295e0e31e8bfcdec49229e9a0eab74dc29e57e0"
 libc = "glibc"
 os = "linux"
 
     [[Xorg_libSM.download]]
-    sha256 = "4da5da195966b81b2a447a20507abbe254035cd4cafc816f62122598ed0b055e"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.4+0/Xorg_libSM.v1.2.4.aarch64-linux-gnu.tar.gz"
+    sha256 = "9852e39d9f84d47957f4a807bc07e64820ebc8a649d1fd9dd555a8719247eb23"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.6+0/Xorg_libSM.v1.2.6.aarch64-linux-gnu.tar.gz"
 [[Xorg_libSM]]
 arch = "aarch64"
-git-tree-sha1 = "68d83f8a64b09899d613d875d916e526e368ae06"
+git-tree-sha1 = "22ef04ea608ab12bbdc0f50db889602c373268d6"
 libc = "musl"
 os = "linux"
 
     [[Xorg_libSM.download]]
-    sha256 = "d2b4f01cae2398d644cfde33cfc4000181a76b2bc2c03223ce09080ea1c6612f"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.4+0/Xorg_libSM.v1.2.4.aarch64-linux-musl.tar.gz"
+    sha256 = "a5b0da6c34067be51ff0d310943826fec201430d6b4da7f01b3cf06be85bf8ec"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.6+0/Xorg_libSM.v1.2.6.aarch64-linux-musl.tar.gz"
 [[Xorg_libSM]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "a247f15daaaca32e8e449f4d922c1765204b291f"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libSM.download]]
-    sha256 = "a7812dc9a2214adfe0117401db29686f66afd5202416c0eb23a1e7d6a512a782"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.4+0/Xorg_libSM.v1.2.4.armv6l-linux-gnueabihf.tar.gz"
-[[Xorg_libSM]]
-arch = "armv6l"
-call_abi = "eabihf"
-git-tree-sha1 = "7ddd7afbdedf05f72561049356c6171dec2dcf4c"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_libSM.download]]
-    sha256 = "b4fd9bf07bb1dffda83caca2e18c7555fbe3f098a47b8527adca2656a2e67d9e"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.4+0/Xorg_libSM.v1.2.4.armv6l-linux-musleabihf.tar.gz"
-[[Xorg_libSM]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "a0cb5d8549e8cacfbcadda1aa2812e0327191092"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libSM.download]]
-    sha256 = "91d42bf1a199dc2e342f9ca7db2f63255496e691c0d6efda794632bf24f8f6ca"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.4+0/Xorg_libSM.v1.2.4.armv7l-linux-gnueabihf.tar.gz"
-[[Xorg_libSM]]
-arch = "armv7l"
-call_abi = "eabihf"
-git-tree-sha1 = "61433dc40ecc78571ca34cfb6de06d33a1a86fa4"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_libSM.download]]
-    sha256 = "361ebed24725ed8e78c2b9d4e36647280ea1b0e6f48fb3fad4957bdb9585465e"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.4+0/Xorg_libSM.v1.2.4.armv7l-linux-musleabihf.tar.gz"
-[[Xorg_libSM]]
-arch = "i686"
-git-tree-sha1 = "432011622b2d35b5fec7c199dfd77ac74206f3f2"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libSM.download]]
-    sha256 = "abccfb751e919bc6555898f865e2d88f297363b24ab7e6162592e603415edfd0"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.4+0/Xorg_libSM.v1.2.4.i686-linux-gnu.tar.gz"
-[[Xorg_libSM]]
-arch = "i686"
-git-tree-sha1 = "0c683ad685ef1497244776f578d33ad09be06146"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_libSM.download]]
-    sha256 = "82bd1c3dde35bf6b7511121413c412c4dc486ced1afe982508ec29cc637fb5ca"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.4+0/Xorg_libSM.v1.2.4.i686-linux-musl.tar.gz"
-[[Xorg_libSM]]
-arch = "powerpc64le"
-git-tree-sha1 = "bc8c92c3203e9a8959694d83b52052a823a1280f"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libSM.download]]
-    sha256 = "f5d8723c26ca5553daee827467bf701c64f110e26248f52ba5fe4c872b45392f"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.4+0/Xorg_libSM.v1.2.4.powerpc64le-linux-gnu.tar.gz"
-[[Xorg_libSM]]
-arch = "x86_64"
-git-tree-sha1 = "b0d2538004dda9eb6449b72b0b85703aeac30a66"
-libc = "glibc"
-os = "linux"
-
-    [[Xorg_libSM.download]]
-    sha256 = "e875b5e9d8c83f58fede7c0e6e6b7c0aa91106e046063d3fc3e0b6d43b85e02c"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.4+0/Xorg_libSM.v1.2.4.x86_64-linux-gnu.tar.gz"
-[[Xorg_libSM]]
-arch = "x86_64"
-git-tree-sha1 = "4f07a80e26ab21a1685292283aa89a827203870a"
-libc = "musl"
-os = "linux"
-
-    [[Xorg_libSM.download]]
-    sha256 = "1c49d4bc4ad826ad191a97d3c8a1b715c3dee828ed27f7c4ec13342c1a458e78"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.4+0/Xorg_libSM.v1.2.4.x86_64-linux-musl.tar.gz"
-[[Xorg_libSM]]
-arch = "x86_64"
-git-tree-sha1 = "d2ae7437ed8e296cd3435f52afdf96750ec53547"
+arch = "aarch64"
+git-tree-sha1 = "44a18bf2c3caf9d6341c2a219f5dca88473bc440"
 os = "freebsd"
 
     [[Xorg_libSM.download]]
-    sha256 = "29e0eda6428a4844decc52da3d615ec310f7e14713883436130597a5c1bb0138"
-    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.4+0/Xorg_libSM.v1.2.4.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "1b32994e3c44f8d9d32842743155b26013efe6d8ef16f89e112db66710c635c5"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.6+0/Xorg_libSM.v1.2.6.aarch64-unknown-freebsd.tar.gz"
+[[Xorg_libSM]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "4e33d2ee4588c3aea5d3399532927d1147348e88"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libSM.download]]
+    sha256 = "d83241c6ec6500f848f8d198463e9d3dc49794fd0d9997034608d97c5f869e57"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.6+0/Xorg_libSM.v1.2.6.armv6l-linux-gnueabihf.tar.gz"
+[[Xorg_libSM]]
+arch = "armv6l"
+call_abi = "eabihf"
+git-tree-sha1 = "ce658296e9b7a0d6ebc5af83d823acb0c6b1c04d"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libSM.download]]
+    sha256 = "4d1d0692e0a7880b31092055527a3b6ac31cc59fe28eab9cc24829d3353b7ee5"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.6+0/Xorg_libSM.v1.2.6.armv6l-linux-musleabihf.tar.gz"
+[[Xorg_libSM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "d380da0dd0567ef3b9d609aa63f7af21286fbe88"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libSM.download]]
+    sha256 = "f505330834456d7d6f3dae83e72b62a97bb635233a0cd68b723ab779dfaa7682"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.6+0/Xorg_libSM.v1.2.6.armv7l-linux-gnueabihf.tar.gz"
+[[Xorg_libSM]]
+arch = "armv7l"
+call_abi = "eabihf"
+git-tree-sha1 = "5c4fbcae33d5c8ea10533dff4460ed891f597e00"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libSM.download]]
+    sha256 = "3236b444aa42efdbfabcb98a71722faf4293e743bb7a44b6229fc8057421a0e2"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.6+0/Xorg_libSM.v1.2.6.armv7l-linux-musleabihf.tar.gz"
+[[Xorg_libSM]]
+arch = "i686"
+git-tree-sha1 = "947fedf58db9e341818e29de759af2512868d275"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libSM.download]]
+    sha256 = "e568b84e0ff199c2cdcc437b20a2c76f6459730d029aaa9d3cd7fd70c78e6e69"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.6+0/Xorg_libSM.v1.2.6.i686-linux-gnu.tar.gz"
+[[Xorg_libSM]]
+arch = "i686"
+git-tree-sha1 = "1d2112db7785faac35074c262272d4c5758fac89"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libSM.download]]
+    sha256 = "c36c17bd4ed140962e5f553435752123f2b944146fe823d81dedccab8f32c504"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.6+0/Xorg_libSM.v1.2.6.i686-linux-musl.tar.gz"
+[[Xorg_libSM]]
+arch = "powerpc64le"
+git-tree-sha1 = "a732b4bf0de5c5262e77f34503df833f8caf04c3"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libSM.download]]
+    sha256 = "6c2a0cbd369bec0237ce2453e8738551b7702e5de04a63359022877c966c5f86"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.6+0/Xorg_libSM.v1.2.6.powerpc64le-linux-gnu.tar.gz"
+[[Xorg_libSM]]
+arch = "riscv64"
+git-tree-sha1 = "e587cea5306a04301145997bf74132f955c72892"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libSM.download]]
+    sha256 = "4b466a1bd58667034e41c7d91644e72cf8d1ad056fadaa2c98b16e5f0929e00f"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.6+0/Xorg_libSM.v1.2.6.riscv64-linux-gnu.tar.gz"
+[[Xorg_libSM]]
+arch = "x86_64"
+git-tree-sha1 = "0ecdcf67bd5c1db95253c03ab63d57e40d0b4886"
+libc = "glibc"
+os = "linux"
+
+    [[Xorg_libSM.download]]
+    sha256 = "048330be6637b1aec2f57264a7f53f8d834424f8cc96051d1ef75b2e77a1f5b3"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.6+0/Xorg_libSM.v1.2.6.x86_64-linux-gnu.tar.gz"
+[[Xorg_libSM]]
+arch = "x86_64"
+git-tree-sha1 = "01a90c3e5072c74b3e98c9fb73132bd60f9910a3"
+libc = "musl"
+os = "linux"
+
+    [[Xorg_libSM.download]]
+    sha256 = "ba1ba340074d985d4d29a68872730e9dd50eacc9744455cb7b021da9af5b2a8f"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.6+0/Xorg_libSM.v1.2.6.x86_64-linux-musl.tar.gz"
+[[Xorg_libSM]]
+arch = "x86_64"
+git-tree-sha1 = "c3b32e845263655178ed717825444b0ea1c2fc3f"
+os = "freebsd"
+
+    [[Xorg_libSM.download]]
+    sha256 = "fbf9be23fde67562a6dea010b9fb3b9811a2df676b3c923c9744b809789f1b1d"
+    url = "https://github.com/JuliaBinaryWrappers/Xorg_libSM_jll.jl/releases/download/Xorg_libSM-v1.2.6+0/Xorg_libSM.v1.2.6.x86_64-unknown-freebsd.tar.gz"
